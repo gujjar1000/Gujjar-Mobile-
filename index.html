@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gujjar Mobile | Fatehpur</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2563eb">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,"Noto Nastaliq Urdu",sans-serif;background:#f5f7fb;color:#172033;line-height:1.7}
+header{background:linear-gradient(135deg,#101828,#2563eb);color:white;padding:24px 18px;text-align:center}
+.logo{width:78px;height:78px;margin:auto;border-radius:20px;background:white;color:#2563eb;display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:bold;box-shadow:0 8px 25px #0004}
+header h1{font-size:32px;margin-top:12px}
+header p{font-size:17px;opacity:.92}
+.btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:11px 20px;border-radius:30px;text-decoration:none;font-weight:bold}
+.call{background:white;color:#1758d1}.wa{background:#16a34a;color:white}
+section{max-width:1000px;margin:28px auto;padding:0 18px}
+.title{text-align:center;font-size:26px;margin-bottom:18px;color:#111827}
+.about{background:white;border-radius:18px;padding:24px;text-align:center;box-shadow:0 4px 18px #0000000b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
+.card{background:white;padding:22px;border-radius:18px;text-align:center;box-shadow:0 4px 18px #0000000b}
+.icon{font-size:35px;margin-bottom:8px}
+.card h3{margin-bottom:6px;color:#1558d6}
+.contact{background:#111827;color:white;border-radius:20px;padding:26px;text-align:center}
+.contact a{color:white;text-decoration:none}
+footer{text-align:center;background:#0b1220;color:#cbd5e1;padding:18px;margin-top:30px;font-size:14px}
+.small{color:#64748b;font-size:14px;margin-top:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GM</div>
+  <h1>Gujjar Mobile</h1>
+  <p>Box Pack & Second Hand Mobiles • Mobile Repairing • All Mobile Services</p>
+  <div class="btns">
+    <a class="btn call" href="tel:03301872060">📞 کال کریں</a>
+    <a class="btn wa" href="https://wa.me/923301872060" target="_blank">💬 WhatsApp</a>
+  </div>
+</header>
+
+<section>
+  <div class="about">
+    <h2 class="title">ہمارے بارے میں</h2>
+    <p>Gujjar Mobile پر ہر قسم کے Box Pack اور Second Hand موبائل دستیاب ہیں۔ ہر قسم کے موبائل کی repairing کا کام تسلی بخش طریقے سے کیا جاتا ہے۔</p>
+    <p class="small">آپ کی موبائل سے متعلق ضروریات کے لیے ہم سے رابطہ کریں۔</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="title">ہماری Services</h2>
+  <div class="grid">
+    <div class="card"><div class="icon">📱</div><h3>Box Pack Mobiles</h3><p>مختلف برانڈز کے نئے موبائل</p></div>
+    <div class="card"><div class="icon">♻️</div><h3>Second Hand Mobiles</h3><p>Used موبائل دستیاب</p></div>
+    <div class="card"><div class="icon">🔧</div><h3>Mobile Repairing</h3><p>ہر قسم کے موبائل کی repairing</p></div>
+    <div class="card"><div class="icon">⚙️</div><h3>All Mobile Services</h3><p>موبائل سے متعلق تمام ضروری خدمات</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="contact">
+    <h2>رابطہ کریں</h2>
+    <p style="margin:8px 0">📞 <a href="tel:03301872060">0330 1872060</a></p>
+    <p>📍 Tower Bazar, Fatehpur</p>
+    <div class="btns">
+      <a class="btn wa" href="https://wa.me/923301872060?text=Assalam-o-Alaikum%20Gujjar%20Mobile" target="_blank">WhatsApp پر رابطہ</a>
+      <a class="btn call" href="tel:03301872060">Call Now</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Gujjar Mobile — Tower Bazar, Fatehpur
+</footer>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js"));
+}
+</script>
+</body>
+</html>
